@@ -1,4 +1,64 @@
 body { 
-    font-family: 'Sedan', sans-serif;
-    background: #D1E2C9;}
-    /* css */
+    font-family: 'Secular One', sans-serif;
+    background: #D1E2C9;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 17%;
+}
+.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-inline: 150px;
+    margin-top: 80px;
+}
+.message input {
+    width: 600px;
+    height: 360px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 23px;
+    border-color:#42701E;
+    border-radius: 30px;
+}
+.key input {
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    margin-left: 33px;
+    width: 120px;
+    height: 120px;
+}
+p {
+    font-size: 25px;
+    margin-top: 65px;
+}
+.buttons { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 300px;
+    margin-top: 20px;
+}
+button {
+    background-color: #A1C177 ;
+    border-radius: 20px;
+    height: 58px;
+    width: 264px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px; 
+}
+    button:hover {
+    background-color: #5a745ac9;
+    }
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+    
+

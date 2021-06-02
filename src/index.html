@@ -5,12 +5,30 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="http://fonts.cdnfonts.com/css/sedan" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
+  <header> 
+    <img src="/img/cipher-logo.png" alt="Caesar Cipher">
+  </header>
+  <main> 
+    <div class="message"> 
+      <input type="text" name="text" value="Digite a mensagem de texto">      
+       <div class="key">
+          <p> <strong> DESLOCAMENTO </strong> </p>
+          <input type="text" name="offset" value="Key"> 
+       </div>
+      <input type="text" name="cipher" value="Digite a mensagem codificada"> 
+    </div>
+    <div class="buttons">
+      <button type="submit"> CODIFICAR </button>
+      <button type="submit"> DESCODIFICAR </button>
+    </div> 
+  </main>
+  <footer> Feito por Mariana Marcondes </footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>
