@@ -15,20 +15,24 @@
     <img src="/img/cipher-logo.png" alt="Caesar Cipher">
   </header>
   <main> 
-    <div class="message"> 
-      <input type="text" name="text" value="Digite a mensagem de texto">      
-       <div class="key">
+    <div class="table"> 
+      <form>
+        <textarea id="text" name="text_message" type="text" placeholder="Digite a mensagem de texto." wrap="soft"> </textarea>
+           <div class="key">
           <p> <strong> DESLOCAMENTO </strong> </p>
-          <input type="text" name="offset" value="Key"> 
-       </div>
-      <input type="text" name="cipher" value="Digite a mensagem codificada"> 
-    </div>
+          <input id="offset" type="number" name="offset" value="0"> 
+           </div>
+        <textarea id="code" name="cipher" type="text" placeholder="Digite a mensagem codificada." wrap="soft"> </textarea>   
+      </form>
     <div class="buttons">
-      <button type="submit"> CODIFICAR </button>
-      <button type="submit"> DESCODIFICAR </button>
+      <button id="encrypt" type="submit"> CODIFICAR </button>
+      <button id="decrypt" type="submit"> DESCODIFICAR </button>
     </div> 
+       
+  
   </main>
   <footer> Feito por Mariana Marcondes </footer>
   <script src="index.js" type="module"></script>
+  <script src="cipher.js"type="module"></script>
 </body>
 </html>

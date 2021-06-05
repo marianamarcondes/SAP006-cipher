@@ -9,30 +9,36 @@ img {
     margin-top: 30px;
     width: 17%;
 }
-.message {
+form {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
     margin-inline: 150px;
-    margin-top: 80px;
+    margin-top: 80px;    
 }
-.message input {
+.table textarea {
     width: 600px;
     height: 360px;
-    text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 23px;
+    font-size: 30px;
     border-color:#42701E;
     border-radius: 30px;
+    text-align: center;
+    padding: 40px;
 }
+
 .key input {
-    display: flex;
-    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
     border-radius: 60px;
-    margin-left: 33px;
+    margin-left: 30px;
     width: 120px;
     height: 120px;
 }
+input {
+    text-align: center;
+    }
 p {
     font-size: 25px;
     margin-top: 65px;
@@ -40,9 +46,9 @@ p {
 .buttons { 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-inline: 300px;
+    justify-content: space-around;
     margin-top: 20px;
+    margin-inline: 7px;
 }
 button {
     background-color: #A1C177 ;
