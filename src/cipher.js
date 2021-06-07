@@ -1,18 +1,23 @@
-const characters = 32;
+const characters = 33;
 const maxCharacters = 237;
 
 const cipher = {
 encode: function(offset, string){
-  let message = "";
+  let message = ""; 
 
     for (let i = 0; i < string.length; i++) {
-    let code = string.charCodeAt(i);
-    if(code >= characters && code <= maxCharacters){
-        message += String.fromCharCode((code - characters + offset) %205 + characters);}
-      else { code += string.charAt(i);
-      }
-      }
-    return message;
+      let code = string.charCodeAt(i);
+      
+      if (string.charCodeAt(i) == 32 ) {      
+        message += string.charAt(i);}
+
+      if(code >= characters && code <= maxCharacters){
+        message += String.fromCharCode((code - characters + offset) %205 + characters);
+          }
+        else { code += string.charAt(i);
+          }
+        }
+    return message; 
     },
     
 decode: function(offset, string){
@@ -27,9 +32,7 @@ decode: function(offset, string){
            }
     return message;
     }
-    }
-                                                                           
-              
+  }                                                                                 
          
 export default cipher;
 
