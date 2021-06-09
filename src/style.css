@@ -9,13 +9,24 @@ img {
     margin-top: 30px;
     width: 17%;
 }
+a {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
 form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-inline: 150px;
-    margin-top: 80px;    
+    margin-top: 50px;    
 }
 .table textarea {
     width: 600px;
@@ -25,7 +36,8 @@ form {
     border-color:#42701E;
     border-radius: 30px;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
+    
 }
 
 .key input {
@@ -48,7 +60,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
-    margin-inline: 7px;
+    
 }
 button {
     background-color: #A1C177 ;
@@ -56,7 +68,7 @@ button {
     height: 58px;
     width: 264px;
     font-family: 'Secular One', sans-serif;
-    font-size: 25px; 
+    font-size: 25px;
 }
     button:hover {
     background-color: #5a745ac9;
