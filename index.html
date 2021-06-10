@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header> 
+    <img src="/img/cipher-logo.png" alt="Caesar Cipher">
+    <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"> Clique aqui e conheça a história! </a>
+  </header>
+  <main> 
+    <div class="table"> 
+      <form>
+        <textarea id="text" style="resize: none" name="text_message" type="text" placeholder="Digite a mensagem de texto." wrap="soft"></textarea>
+        <div class="key">
+          <p> <strong> DESLOCAMENTO </strong> </p>
+          <input id="offset" type="number" name="offset" value="0" > 
+        </div>
+        <textarea id="code" style="resize: none" name="cipher" type="text" placeholder="Digite a mensagem codificada." wrap="soft"></textarea>   
+      </form>
+    <div class="buttons">
+      <button id="encrypt" type="submit"> CODIFICAR </button>
+      <button id="decrypt" type="submit"> DESCODIFICAR </button>
+    </div> 
+    </div>
+  </main>
+  <footer> Feito por Mariana Marcondes </footer>
+  <script src="index.js" type="module"></script>
+  
+</body>
+</html>

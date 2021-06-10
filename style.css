@@ -1,0 +1,82 @@
+body { 
+    font-family: 'Secular One', sans-serif;
+    background: #D1E2C9;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 17%;
+}
+a {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 150px;
+    margin-top: 50px;    
+}
+.table textarea {
+    width: 600px;
+    height: 360px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    border-color:#42701E;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.key input {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    border-radius: 60px;
+    margin-left: 30px;
+    width: 120px;
+    height: 120px;
+}
+input {
+    text-align: center;
+    }
+p {
+    font-size: 25px;
+    margin-top: 65px;
+}
+.buttons { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+button {
+    background-color: #A1C177 ;
+    border-radius: 20px;
+    height: 58px;
+    width: 264px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+    button:hover {
+    background-color: #5a745ac9;
+    }
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+    
+
