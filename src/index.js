@@ -2,11 +2,7 @@ import cipher from './cipher.js';
 
 const codeButton = document.getElementById("encrypt"); 
     function encryptMessage() { 
-        let offset = Number(document.getElementById("offset").value); 
-
-           if (offset < 0) {
-            offset = Math.abs(offset);}   
-
+        let offset = Number(document.getElementById("offset").value);
         let string = document.getElementById("text").value;      
         const encrypted = cipher.encode(offset, string); 
             document.getElementById("code").value = encrypted; 
